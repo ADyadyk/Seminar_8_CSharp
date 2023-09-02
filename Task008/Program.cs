@@ -40,12 +40,12 @@ int[,] GetArray()
 
         for(int q =jj - 1; q >= j; q--)//идём по нижней строке влево
         {
-            arr[ii,q] = count;//что тут не так?
+            arr[ii,q] = count;
             count++;
         }
         for (int q = ii - 1; q >= i + 1; q--)//идём по левому крайнему столбцу вверх
         {
-            arr[q,j] = count;//что тут не так?
+            arr[q,j] = count;
             count++;
         }
         i++;
